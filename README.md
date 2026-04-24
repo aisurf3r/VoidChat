@@ -171,7 +171,6 @@ Implement file compression before encryption and broadcast:
 - Show "Compressing File..." while processing
 - If file is still too large after compression, show error: "File is still too large (máx. 200KB)"
 
-Keep everything client-side. Do not change encryption logic.
 
 <p align="center">
   <b>VoidChat</b> — Messages that exist only in the moment. 💀
