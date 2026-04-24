@@ -6,7 +6,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-Realtime-3FCF8E?logo=supabase&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 <img width="848" height="881" alt="{3843C9D8-0B6C-48BA-AEC8-FE9A445C136C}" src="https://github.com/user-attachments/assets/6d0a8894-2b00-4852-b571-a3aeee7b4f80" />
