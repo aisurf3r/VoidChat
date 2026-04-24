@@ -9,6 +9,10 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
+<img width="848" height="881" alt="{3843C9D8-0B6C-48BA-AEC8-FE9A445C136C}" src="https://github.com/user-attachments/assets/6d0a8894-2b00-4852-b571-a3aeee7b4f80" />
+<img width="1919" height="953" alt="{5C2BFA5D-5E1E-4D6E-A62A-DFFC9C676FC7}" src="https://github.com/user-attachments/assets/011bd259-76ea-47f4-831b-3c0f33835064" />
+
+
 
 ## ✨ Features
 
@@ -139,19 +143,35 @@ src/
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/cool-thing`)
-3. Commit your changes (`git commit -m 'Add cool thing'`)
-4. Push to the branch (`git push origin feature/cool-thing`)
-5. Open a Pull Request
-
-## 📄 License
-
-MIT — do whatever you want with it.
+Contributions are Closed.
+This is Private code
 
 ---
+💀💀HUGE TODO💀💀
+
+- If I change my user name, all messages posted should change name too.
+- If White theme is selected in a room and you leave, the white theme persists now in the main page. Fix.
+-Erase the toast " el codigo debe tener al menos 7 caracteres" and the logic or leftover code associated with that, no longer needed.
+-Add a hard limit of 1000 characters per message. Show a real-time counter below the message input: "847 / 1000" and turn the counter red when > 900 characters  
+  are reached disabling the send button when the message exceeds 1000 characters. If so show toast: "Message too long"
+-Adapt js moving letters canva  in the main page
+-add Minimalist green footer with  contact, about, disclaimer. About opens a modal window with 3  animated cards explaining how  the app works. Disclaimer opens a modal 
+  window with a brief legal text of responsibility, and contact its just an email link.
+-generate qr with link to read with phone
+-add docx file transfer
+
+Implement file compression before encryption and broadcast:
+
+- For images (jpg, png, gif, webp): compress using Canvas API (max width 1400px, WebP if supported, quality 0.75)
+- For TXT files: apply gzip compression
+- For PDF files: apply gzip compression only
+- For all other files: try gzip, then reject if still too big
+- Do this BEFORE converting to Base64 and encrypting with AES-256-GCM
+- Target: final encrypted payload under 200KB
+- Show "Compressing File..." while processing
+- If file is still too large after compression, show error: "File is still too large (máx. 200KB)"
+
+Keep everything client-side. Do not change encryption logic.
 
 <p align="center">
   <b>VoidChat</b> — Messages that exist only in the moment. 💀
